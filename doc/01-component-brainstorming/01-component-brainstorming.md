@@ -1,12 +1,11 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Jacob Kim
+- **Dot Number**: kim.8934
+- **Due Date**: 09/13 @ 12:40 PM EST
 
 ## Assignment Overview
 
-<!-- TODO: read the assignment overview then delete this comment -->
 
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
@@ -29,7 +28,6 @@ implement.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -52,7 +50,6 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
 
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
@@ -67,7 +64,6 @@ project. Specifically, students should be able to:
 
 ## Assignment Rubric: 10 Points
 
-<!-- TODO: read the assignment rubric then delete this comment -->
 
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
@@ -98,15 +94,20 @@ do good work.
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+Some of my interests include sports, games, and music.
+
+Sports has been a cornerstone of who I am. I grew up with basketball and continue to love it endlessly. Recently, I have also learned to love soccer, though I had completely hated it and thought it was stupid in my youth. I have a really strange spread of sports teams across different leagues. I was born in South Caroline and live in Akron, OH, but none of my favorite teams are anywhere close to those two places. My favorite NBA team is the Phoenix Suns (A few years back, their star Shooting Guard, Devin Booker, scored 70 points in one game and my dad had said it was a fluke, and out of spite I have been following their team since.They are a really fun team to watch, but they always underperform in the playoffs). My favorite Premier League team is West Ham United (A buddy of mine is really big into soccer and wanted me to join the train of soccer love. She just told me to pick a team and I saw a team called "West Ham" and thought it was funny, so I ran with it. I watch their matches every weekend, but again very underwhelming. Still have fun when they do good though!). I never really had an NFL team but one year my buddies had a Super Bowl party and it was the Eagles vs the Chiefs. I really did not want the Chiefs to win because they always win, so I cheered for the Eagles and have supported them since. I like the Mets as a joke, but honestly they are not doing too bad this year. I have a Devin Booker jersey, Suns Steve Nash jersey, a 17/18 West Ham jersey, and a really stupid Mets shirt.
+
+I love games. I am a really competitive person by nature and I always really want to win. Euchre has been one of my favorite card games in the past year or two and my friends and I have had to go on a hiatus of sorts because we had played it so much. I also like pickleball a lot, though I am not very good at it. I grew up playing a lot of Minecraft and had always dreamed of being a Minecraft YouTuber. These days, I play a lot of Fortnite (it is really fun after you get passed the fact it is a kids game), Pokemon Showdown, Lethal Company, and Overwatch. Another game I like to play is gambling (Buying and opening Pokemon cards). I really like to buy Pokemon cards because I get to see a cool little piece of cardboard worth $0.33 after spending $5 on a pack. It's just really fun thinking about the possibilities of maybe hitting it big. I have moved on though becuase I may or may not be in financial ruin after going to college with my own money.
+
+Music has been huge for me as well. I played the piano in my youth and as I grew up picked up the alto saxophone. Love the sax. I played in jazz band, concert band, marching band, you name it. I was the drum major for my high school's marching band and 1st chair for jazz band. As I got to college though, I have not had the time to practie nor play, but I hope my abilities do not dissipate after so long. Music helps get me through the day. I really listen to an ungodly amount of music. Studying, walking to class, sleeping, literally all the time music is playing. It was hard for me to figure out what I like, but the genre(s) of music I have come to embrace as my favorite is neo-R&B-soul-indie-pop-rap-funk. It's a weird spread but Childish Gambino is my favoritest artist ever and he genuinely hits all the points there.
+
+In my future, say, 20 years down the line, I do not want to be programming anymore. As much as I find programming and its applications so very rewarding and cool and awesome, I feel like I do not want to do it forever. I feel like there is a fine line and that there will be a point of burnout and being done with it, and that is OK! My one friend's dad was a super genius computer engineer and coder, but these days he has his MBA and works more in the administrative side of engineering and such. I feel like that is the pipeline that I would like to follow. I am also getting a busniess minor now so I feel like it is totally doable.
+
+Thanks for listening!
 
 ## Assignment
 
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
@@ -114,7 +115,6 @@ that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
 
-<!-- TODO: browse the list of possible projects then delete this comment -->
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -124,7 +124,6 @@ you're just brainstorming right now. You do not have to commit to anything.
 
 ### Example Component
 
-<!-- TODO: review this example component then delete this comment -->
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -192,70 +191,87 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Spinner/Roulette
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    Data structure used to return a random element, but elements can have higher or lower rates of returning values. Think about it like Set's big brother. Each element has a specific count associated with it and when removing an element, the odds point to "slices" with higher count sizes. When a slice has been selected, the count reduces by one.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - 'int numSlices()': returns the number of slices this particular value has
+    - 'T spin()': removes and decrements a slice of the wheel
+    - 'void addSlice(T x)': adds a slice to the wheel, if slice value exists already, increments the count
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - 'double odds(T x)': returns the odds that a certain x has of landing on it
+    - 'int uniqueCount()': returns the number of unique slice values of this
+    - 'int spinnerSize()': returns the total amount of slices of this
+    - 'void duplicateSlices(T x, int i)': duplicates an existing value of x i times
+    - 'T x removeSlice(T x, int i)': removes an existing value of x i times
+    - 'boolean contains(T x)': checks to see if x exists within this
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Yes, it can grow and shrink as the user pleases
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Maybe? Slice can be its own class? Spinner.Slice perhaps? Like map, one component holding the value and one holding the count? We shall see
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      I do not know what this means?
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Absolutely. Odds() uses the numSlices method to find the total and the individual slice distribution. Then it would calculate the odds of the value being picked through a spin.
 
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Notecard
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    Data structure that holds a definition and a term. Like a map. The elements can be removed like a queue. The elements can also be shuffled, so that the elements would be removed at different times if needed. Data can also hold if it is a known term or an unknown term. Known terms are removed from the set and unknown terms are re-added to the end of the queue.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    'void addCard(T term, T definition, boolean known)' or 'void addCard(T x, T definition)': adds a card to the list. Baseline (I forget the correct coding term), is that the card is unknown
+    '(T x, T y, boolean known) removeCard()': removes a card from the front of this
+    'int numCards()': returns the number of notecards
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    'void shuffle()': "shuffles" this. the order and indexes of elements are randomized
+    'void changeKnown(boolean known, T term)': changes the known value of a card
+    'T definition getDefinition(T term)': gets a given term element's definition
+    'boolean contains(T term)': sees if a given term exists within this
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Yes the set can dynamically change, grow and shrink as well as access the data
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      I definitely think there should be an internal class of card to hold all three components of the structure. It will get really annoying if there has to be three variables everytime. Much rather have it implicityly made within its own structure.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Still don't get this I won't lie.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      ChangeKnown could be implemented in a for each loop where each element is taken out through removeCard(). Each card will be checked, and when the given card is found, a new card can be made with the opposite known value.
 
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #3: Artificial Neuron
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - I'll be honest I do not completely understand how this is supposed to work. To my understanding, data points are inputted, each with a given weight. Then, the weights are multiplied by the inputted values. They are then summed up and then put into an activation function, resulting in some value. I do not know what this is supposed to do really, I will ask Jeremy later, but it sounds interesting.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    void addPoint(T x, T x): adds a point to this, used for further calculations
+    Point(T x, T x) removePoint(): removes a point from this, a value and a weight
+    int numPoints(): counts how many point there are in the neuron
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    T x calculate(): sums and calculates the points into the output value
+    void sortPoints(): sorts the points from least to greatest
+    T x partialCalulation(int i, int j): calculates a given starting and ending indexes values
+    T x weightTimesValue(T x): gives the weight * value of a point
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Yes.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Probably neuron.Point. Gives the combination of a value and weight
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      I don't think so
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      sortPoints really only needs the removePoint() kernel method and an implemented sorting algorythm to put things in the correct order. Or simply import the comparator
 
 ## Post-Assignment
 
@@ -264,7 +280,6 @@ completed the assignment.
 
 ### Changelog
 
-<!-- TODO: create CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -282,13 +297,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## YYYY.MM.DD
+## 2024.09.16
 
 ### Added
 
-- Designed a <!-- insert name of component 1 here --> component
-- Designed a <!-- insert name of component 2 here --> component
-- Designed a <!-- insert name of component 3 here --> component
+- Designed a Spinner component
+- Designed a Notecard component
+- Designed a Artificial Neuron component
 ```
 
 Here `YYYY.MM.DD` would be the date of your submission, such as 2024.04.21.
@@ -303,7 +318,6 @@ of development.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
 
 If you have completed the assignment using this template, we recommend that
 you convert it to a PDF before submission. If you're not sure how, check out
@@ -313,11 +327,9 @@ all your work is there before submitting. For future assignments, you will
 just be submitting a link to a pull request. This will be the only time
 you have to submit any PDFs.
 
-<!-- TODO: upload a PDF of this document and the CHANGELOG to Carmen then delete this comment -->
 
 ### Peer Review
 
-<!-- TODO: review the peer review guidelines then delete this comment -->
 
 Following the completion of this assignment, you will be assigned three
 students' component brainstorming assignments for review. Your job during the
